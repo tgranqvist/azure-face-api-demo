@@ -10,5 +10,5 @@ This is a demo of the Face API using Python. It shows how to do simple face dete
 ## Running
 
 * Install the dependencies: `pip install -r requirements.txt`
-* Create an API key, replace it in the code (line 9)
-* Run it: Python demo.py \[image url or default\]
+* Create an API key, set it as environment variable FACE_API_KEY
+* Run it: `Python demo.py \[image url\]`. If no image url given, uses example one from https://www.how-old.net/
